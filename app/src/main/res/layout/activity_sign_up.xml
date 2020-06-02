@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/profile">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="40sp"
+        android:textColor="#D51C59"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/SignUpEmailEditText"
+        android:hint=" Email"
+        android:textColorHint="#D51C59"
+        android:shadowColor="#D51C59"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/email"
+        android:inputType="textEmailAddress">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/SignUpPasswordEditText"
+        android:hint=" Password"
+        android:textColorHint="#D51C59"
+        android:shadowColor="#D51C59"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/pasword"
+        android:inputType="textPassword">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20dp"
+        android:id="@+id/SignUpButttonID"
+        android:layout_margin="10dp">
+    </Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressbarID">
+
+    </ProgressBar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have account? Sign In"
+        android:textSize="20sp"
+        android:textColor="#D51C59"
+        android:layout_marginTop="60dp"
+        android:id="@+id/SignInTextID">
+    </TextView>
+
+
+</LinearLayout>

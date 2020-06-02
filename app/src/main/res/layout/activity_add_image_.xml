@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".AddImage_Activity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewId"
+        android:src="@drawable/image1">
+    </ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:id="@+id/selectImageButtonId"
+        android:layout_marginHorizontal="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:id="@+id/SaveImageButtonId"
+        android:layout_marginHorizontal="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disply
+        Image"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:id="@+id/DisplyImageButtonId"
+        android:layout_marginHorizontal="20dp">
+    </Button>
+
+
+
+</LinearLayout>
