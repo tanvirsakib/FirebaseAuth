@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:layout_marginTop="10dp"
     android:orientation="vertical"
     android:gravity="center|top"
     tools:context=".AddImage_Activity">
@@ -14,8 +15,25 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:id="@+id/imageViewId"
-        android:src="@drawable/image1">
+        android:layout_marginVertical="15dp">
     </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image Name"
+        android:id="@+id/imageNameEditTextId"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+    </EditText>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressbarID">
+    </ProgressBar>
 
     <Button
         android:layout_width="match_parent"
@@ -25,7 +43,7 @@
         android:textSize="20sp"
         android:textAllCaps="false"
         android:id="@+id/selectImageButtonId"
-        android:layout_marginHorizontal="20dp">
+        android:layout_marginHorizontal="40dp">
     </Button>
 
     <Button
@@ -36,19 +54,18 @@
         android:textSize="20sp"
         android:textAllCaps="false"
         android:id="@+id/SaveImageButtonId"
-        android:layout_marginHorizontal="20dp">
+        android:layout_marginHorizontal="40dp">
     </Button>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Disply
-        Image"
+        android:text="Disply Image"
         style="@style/Widget.AppCompat.Button.Colored"
         android:textSize="20sp"
         android:textAllCaps="false"
         android:id="@+id/DisplyImageButtonId"
-        android:layout_marginHorizontal="20dp">
+        android:layout_marginHorizontal="40dp">
     </Button>
 
 
